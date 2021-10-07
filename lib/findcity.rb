@@ -4,5 +4,7 @@ require_relative "findcity/version"
 
 module Findcity
   class Error < StandardError; end
-  # Your code goes here...
+  def self.add(number1, number2)
+    number1 + number2
+  end
 end
